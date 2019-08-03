@@ -1,16 +1,31 @@
 {
-  "name": "confusionserver",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
-  }
+    "name": "confusionserver",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "http-errors": "~1.6.3",
+        "jade": "~1.11.0",
+        "mongoose": "^5.6.8",
+        "mongoose-currency": "^0.2.0",
+        "morgan": "~1.9.1"
+    },
+    "main": "app.js",
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shreyas-04/conFusionServer.git"
+    },
+    "author": "Shreyas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shreyas-04/conFusionServer/issues"
+    },
+    "homepage": "https://github.com/shreyas-04/conFusionServer#readme",
+    "description": ""
 }
